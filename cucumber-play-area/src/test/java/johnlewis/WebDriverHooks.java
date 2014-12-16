@@ -9,7 +9,9 @@ import org.springframework.stereotype.Component;
 
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
+import cucumber.api.java.en.Given;
 
+@Component
 public class WebDriverHooks {
 
 	@Autowired

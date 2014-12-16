@@ -15,7 +15,7 @@ import cucumber.api.java.en.When;
 public class BrowseSteps {
 
 	@Autowired
-	private MyWebDriver webDriver;
+	private EventFiringWebDriver webDriver;
 	
 	
 	@Given("^I am on the john lewis site$")
