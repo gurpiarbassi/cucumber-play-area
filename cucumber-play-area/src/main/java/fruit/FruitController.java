@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/service/fruit")
 public class FruitController {
 
-	@RequestMapping(value="/list", method = RequestMethod.GET)
+	@RequestMapping(value="/list", method = RequestMethod.GET, produces="application/json" )
 	@ResponseBody
 	public ResponseEntity<List<Fruit>> list(){
 		
